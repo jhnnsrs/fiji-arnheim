@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "venv/bin/python",
+    "files.watcherExclude": {
+        "**/venv/*/**": true,
+        "**/__pycache__": true,
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/venv/*/**": true,
+    },
+    "python.linting.pylintEnabled": true,
+}
