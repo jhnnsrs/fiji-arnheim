@@ -1,0 +1,1178 @@
+Couldn't fetch Token with config Insecure Connection to localhost:8000 on Grant implicit
+Creating new Ward for Datapoint TYPENAME=None id=6 type='GRAPHQL' name=None inward=None outward='p-tnagerl-lab1' port=8070 url=None models=None
+Creating new Ward for Datapoint TYPENAME=None id=5 type='GRAPHQL' name=None inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+ [x] Awaiting Provision Calls
+Message
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='ec20ec8b-0f8e-40bd-9eb7-5d7094344bec', extensions=MetaExtensionsModel(progress='amq.gen-uSkggfOOCRX_8HKEiUVMOQ', callback='amq.gen-fkw3GniG_gnhx-bVnKNBPA'))
+Received Message data=DataModel(node=None, template='88', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='ec20ec8b-0f8e-40bd-9eb7-5d7094344bec') meta=MetaModel(type='bounced_forwarded_reserve', reference='ec20ec8b-0f8e-40bd-9eb7-5d7094344bec', extensions=MetaExtensionsModel(progress='amq.gen-uSkggfOOCRX_8HKEiUVMOQ', callback='amq.gen-fkw3GniG_gnhx-bVnKNBPA'), token=Token(roles=[], scopes=['introspection', 'can_provide'], user=3))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='ec20ec8b-0f8e-40bd-9eb7-5d7094344bec', provision='ec20ec8b-0f8e-40bd-9eb7-5d7094344bec', args=['11'], kwargs=None) meta=MetaModel(type='bounced_forwarded_assign', reference='816c82a1-1f53-4f18-b4fb-e0ee0ba01617', extensions=MetaExtensionsModel(progress='amq.gen-uSkggfOOCRX_8HKEiUVMOQ', callback='amq.gen-fkw3GniG_gnhx-bVnKNBPA'), token=Token(roles=[], scopes=['introspection', 'can_provide'], user=3))
+Found credentials in environment variables.
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Entertainer Connection failed [Errno 111] Connect call failed ('10.144.196.43', 8090)
+Retrying in 2 seconds
+Connection to Arkitekt Failed: Trying again in 2 seconds.
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Connection to Arkitekt Failed: Trying again in 2 seconds.
+Entertainer Connection failed [Errno 111] Connect call failed ('10.144.196.43', 8090)
+Retrying in 2 seconds
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Connection to Arkitekt Failed: Trying again in 2 seconds.
+Entertainer Connection failed [Errno 111] Connect call failed ('10.144.196.43', 8090)
+Retrying in 2 seconds
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Entertainer Connection failed [Errno 111] Connect call failed ('10.144.196.43', 8090)
+Retrying in 2 seconds
+Connection to Arkitekt Failed: Trying again in 2 seconds.
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Connection to Arkitekt Failed: Trying again in 2 seconds.
+Entertainer Connection failed [Errno 111] Connect call failed ('10.144.196.43', 8090)
+Retrying in 2 seconds
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Entertainer Connection failed [Errno 111] Connect call failed ('10.144.196.43', 8090)
+Retrying in 2 seconds
+Connection to Arkitekt Failed: Trying again in 2 seconds.
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Creating new Ward for Datapoint TYPENAME=None id=1 app={   'TYPENAME': None,
+    'client_id': None,
+    'grant_type': None,
+    'id': None,
+    'name': 'Elements'} user=None type='GRAPHQL' name=None needsNegotiation=True inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Creating new Ward for Datapoint TYPENAME=None id=1 app={   'TYPENAME': None,
+    'client_id': None,
+    'grant_type': None,
+    'id': None,
+    'name': 'Elements'} user=None type='GRAPHQL' name=None needsNegotiation=True inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+[red] Connection attempt as Entertainer failed
+Sueccess fully connected Provider 
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Provider: Reconnecting
+[red] Connection attempt as Entertainer failed
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Successfully connected [bold]Postman
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Successfully connected [bold]Postman
+Creating new Ward for Datapoint TYPENAME=None id=1 app={   'TYPENAME': None,
+    'client_id': None,
+    'grant_type': None,
+    'id': None,
+    'name': 'Elements'} user=None type='GRAPHQL' name=None needsNegotiation=True inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Sueccess fully connected Provider 
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='ff32f50a-ac08-4ee3-9917-a1d05884ffa6', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='ff32f50a-ac08-4ee3-9917-a1d05884ffa6') meta=MetaModel(type='bounced_forwarded_reserve', reference='ff32f50a-ac08-4ee3-9917-a1d05884ffa6', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='211b706c-10a5-4598-930f-59ceac0e7303', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='211b706c-10a5-4598-930f-59ceac0e7303') meta=MetaModel(type='bounced_forwarded_reserve', reference='211b706c-10a5-4598-930f-59ceac0e7303', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='ff32f50a-ac08-4ee3-9917-a1d05884ffa6') meta=MetaModel(type='bounced_unreserve', reference='36a1e0e1-574e-4fac-84ef-64890efdece5', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Cancellation for Reservatoion received. Canceling!
+Received Unprovide Request
+Cancelling Task
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Unproviding') meta=MetaModel(type='unprovide_progress', reference='36a1e0e1-574e-4fac-84ef-64890efdece5', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Actor is done! Cancellation or Finished??
+Future was cancelled everything is cools
+Received Message data=DataModel(reservation='211b706c-10a5-4598-930f-59ceac0e7303') meta=MetaModel(type='bounced_unreserve', reference='480597b1-736c-496d-bb22-93cc7ca2a9d6', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Cancellation for Reservatoion received. Canceling!
+Received Unprovide Request
+Cancelling Task
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Unproviding') meta=MetaModel(type='unprovide_progress', reference='480597b1-736c-496d-bb22-93cc7ca2a9d6', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Actor is done! Cancellation or Finished??
+Future was cancelled everything is cools
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='3b3cac2e-634c-4bad-86e4-3d9a37ac17c4', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='3b3cac2e-634c-4bad-86e4-3d9a37ac17c4') meta=MetaModel(type='bounced_forwarded_reserve', reference='3b3cac2e-634c-4bad-86e4-3d9a37ac17c4', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='3b3cac2e-634c-4bad-86e4-3d9a37ac17c4', provision='3b3cac2e-634c-4bad-86e4-3d9a37ac17c4', args=['14'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='ff9b8ce9-b159-4777-9e2e-866ace74d1d7', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Creating new Ward for Datapoint TYPENAME=None id=1 app={   'TYPENAME': None,
+    'client_id': None,
+    'grant_type': None,
+    'id': None,
+    'name': 'Elements'} user=None type='GRAPHQL' name=None needsNegotiation=True inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='853464ef-b71f-4ee4-9ea6-f2ee1d6b7a2d', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='853464ef-b71f-4ee4-9ea6-f2ee1d6b7a2d') meta=MetaModel(type='bounced_forwarded_reserve', reference='853464ef-b71f-4ee4-9ea6-f2ee1d6b7a2d', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='853464ef-b71f-4ee4-9ea6-f2ee1d6b7a2d', provision='853464ef-b71f-4ee4-9ea6-f2ee1d6b7a2d', args=['12'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='adb90c62-1bf5-4534-bb77-06f5d5d9778a', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Creating new Ward for Datapoint TYPENAME=None id=1 app={   'TYPENAME': None,
+    'client_id': None,
+    'grant_type': None,
+    'id': None,
+    'name': 'Elements'} user=None type='GRAPHQL' name=None needsNegotiation=True inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Sueccess fully connected Provider 
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='b9091f1a-3544-4329-a800-fa983c539b76', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='b9091f1a-3544-4329-a800-fa983c539b76') meta=MetaModel(type='bounced_forwarded_reserve', reference='b9091f1a-3544-4329-a800-fa983c539b76', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='b9091f1a-3544-4329-a800-fa983c539b76', provision='b9091f1a-3544-4329-a800-fa983c539b76', args=['12'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='262daf83-db34-45a6-90d0-4caecebda30f', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Creating new Ward for Datapoint TYPENAME=None id=1 app={   'TYPENAME': None,
+    'client_id': None,
+    'grant_type': None,
+    'id': None,
+    'name': 'Elements'} user=None type='GRAPHQL' name=None needsNegotiation=True inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Sueccess fully connected Provider 
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='70737315-5f2b-4694-bc5f-84884ecff8f8', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='70737315-5f2b-4694-bc5f-84884ecff8f8') meta=MetaModel(type='bounced_forwarded_reserve', reference='70737315-5f2b-4694-bc5f-84884ecff8f8', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='70737315-5f2b-4694-bc5f-84884ecff8f8', provision='70737315-5f2b-4694-bc5f-84884ecff8f8', args=['12'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='2c4df00b-7ed8-43e6-8f84-c351e919da59', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='70737315-5f2b-4694-bc5f-84884ecff8f8', provision='70737315-5f2b-4694-bc5f-84884ecff8f8', args=['13'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='1cef5e3c-04c0-4769-bbdf-c03c4cc7e901', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Received Message data=DataModel(reservation='70737315-5f2b-4694-bc5f-84884ecff8f8') meta=MetaModel(type='bounced_unreserve', reference='1661a826-97ba-47cc-9891-19a68be4dda4', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Cancellation for Reservatoion received. Canceling!
+Received Unprovide Request
+Cancelling Task
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Unproviding') meta=MetaModel(type='unprovide_progress', reference='1661a826-97ba-47cc-9891-19a68be4dda4', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Actor is done! Cancellation or Finished??
+Future was cancelled everything is cools
+Creating new Ward for Datapoint TYPENAME=None id=1 app={   'TYPENAME': None,
+    'client_id': None,
+    'grant_type': None,
+    'id': None,
+    'name': 'Elements'} user=None type='GRAPHQL' name=None needsNegotiation=True inward=None outward='p-tnagerl-lab1' port=8080 url=None models=None
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='803d9ae3-a5f7-406a-bb13-4fcad97bca8f', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='803d9ae3-a5f7-406a-bb13-4fcad97bca8f') meta=MetaModel(type='bounced_forwarded_reserve', reference='803d9ae3-a5f7-406a-bb13-4fcad97bca8f', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='803d9ae3-a5f7-406a-bb13-4fcad97bca8f') meta=MetaModel(type='bounced_unreserve', reference='749831f9-ea11-47ae-bba5-ac1db1d3f050', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Cancellation for Reservatoion received. Canceling!
+Received Unprovide Request
+Cancelling Task
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Unproviding') meta=MetaModel(type='unprovide_progress', reference='749831f9-ea11-47ae-bba5-ac1db1d3f050', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Actor is done! Cancellation or Finished??
+Future was cancelled everything is cools
+Received Provide Request
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_progress', reference='bb51698e-347c-49f8-a074-08e08f3e682c', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'))
+Received Message data=DataModel(node='7', template='17', params=ReserveParams(providers=None, auto_unprovide=True, auto_provide=True), provision='bb51698e-347c-49f8-a074-08e08f3e682c') meta=MetaModel(type='bounced_forwarded_reserve', reference='bb51698e-347c-49f8-a074-08e08f3e682c', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Arkitekt demands a New Reservation from us
+Received Message data=DataModel(reservation='bb51698e-347c-49f8-a074-08e08f3e682c', provision='bb51698e-347c-49f8-a074-08e08f3e682c', args=['12'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='9cf4ee13-5e94-4f46-830d-4957279131c4', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='bb51698e-347c-49f8-a074-08e08f3e682c') meta=MetaModel(type='bounced_unreserve', reference='2a3472d4-1e6b-4807-bb36-1fbef71fdb5f', extensions=MetaExtensionsModel(progress='amq.gen-hUWDww5FI0bK8mCtor1Z2Q', persist=None, callback='amq.gen-qqCMIRWKWiwbQpKbCXeLLA'), token=Token(roles=[], scopes=['read', 'read_starred', 'write', 'provider', 'hooker', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce', 'profile'], user=2))
+Cancellation for Reservatoion received. Canceling!
+Received Unprovide Request
+Cancelling Task
+Sending data=ProgressDataModel(level=<ProgressLevel.INFO: 'INFO'>, message='Pod Unproviding') meta=MetaModel(type='unprovide_progress', reference='2a3472d4-1e6b-4807-bb36-1fbef71fdb5f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Actor is done! Cancellation or Finished??
+Future was cancelled everything is cools
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Sueccess fully connected Provider 
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Sueccess fully connected Provider 
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Successfully connected [bold]Postman
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Postman: Trying to reconnect Postman
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1011 (unexpected error), no reason')]
+Provider: Reconnecting
+Successfully connected [bold]Postman
+Connecting as Entertainer
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')]
+Reconnecting
+Postman: Trying to reconnect Postman
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed

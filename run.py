@@ -1,5 +1,5 @@
 #%%
-from bergen.clients.host import HostBergen
+from bergen.clients.provider import ProviderBergen
 from bergen.models import Node
 import asyncio
 import random
@@ -20,16 +20,9 @@ helper = ImageJHelper()
 
 async def main():
 
-    async with HostBergen(
-            host="p-tnagerl-lab1",
-            port=8000,
-            client_id="DSNwVKbSmvKuIUln36FmpWNVE2KrbS2oRX0ke8PJ", 
-            client_secret="Gp3VldiWUmHgKkIxZjL2aEjVmNwnSyIGHWbQJo6bWMDoIUlBqvUyoGWUWAe6jI3KRXDOsD13gkYVCZR0po1BLFO9QT4lktKODHDs0GyyJEzmIjkpEOItfdCC4zIa3Qzu",
-            name="image_karl",# if we want to specifically only use pods on this innstance we would use that it in the selector
-    ) as client:
+    async with ProviderBergen() as client:
 
-
-        blur = Node.objects.get(package="@canoncial/generic/filters", interface="gaussian-blur")
+        blur = Node.objects.get(package="Elements", interface="gaussian_blur")
 
         fft = FilterMacro("""
             stack = getImageID;
@@ -37,15 +30,14 @@ async def main():
             """)
 
 
-        @client.register(blur, gpu=True, image_k=True)
-        async def bluring(helper, rep=None, sigma=None, planes=None, channel=None):
+        @client.template(blur, gpu=True, image_k=True)
+        async def bluring(rep: Representation, sigma=None):
             """Sleep on the CPU
 
             Args:
                 helper ([type]): [description]
                 rep ([type], optional): [description]. Defaults to None.
             """
-            rep = await Representation.asyncs.get(id=rep)
             array = fft(rep.data.sel(c=0, t=0, z=0))
 
             new = array.data.reshape(array.shape + (1,1,1))
@@ -53,7 +45,7 @@ async def main():
             rep = await Representation.asyncs.from_xarray(output, name="fft", sample= rep.sample.id, variety=RepresentationVariety.VOXEL)
             return { "rep": rep }
 
-        await client.run_async()
+        await client.provide_async()
 
 
 

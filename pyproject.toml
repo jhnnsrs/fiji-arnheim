@@ -9,8 +9,8 @@ authors = ["jhnnsrs <jhnnsrs@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-grunnlag = "^0.2.9"
-bergen= "^0.3.31"
+grunnlag = "^0.2.18"
+bergen= "^0.3.95"
 pyimagej = "^1.0.0"
 
 [tool.poetry.scripts]
