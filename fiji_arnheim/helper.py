@@ -12,6 +12,13 @@ class ImageJHelper(BaseImageJHelper):
     def displayRep(self, rep: Representation):
         image = rep.data
 
+        if "z" in image.dims:
+            image = image.max(dim="z")
+        if "t" in image.dims:
+            image = image.sel(t=0)
+        if "c" in image.dims:
+            image = image.sel(c=0)
+
         if dask.is_dask_collection(image.data):
             jimage = self.py.to_java(image.compute())
         else:

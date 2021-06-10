@@ -1,6 +1,7 @@
 #%%
 from bergen.clients.provider import ProviderBergen
 from bergen.models import Node
+from bergen import use
 import asyncio
 import random
 from aiostream import stream
@@ -22,7 +23,8 @@ async def main():
 
     async with ProviderBergen() as client:
 
-        blur = Node.objects.get(package="Elements", interface="gaussian_blur")
+        blur = use(package="Elements", interface="gaussian_blur")
+        show = use(package="Elements", interface="show")
 
         fft = FilterMacro("""
             stack = getImageID;
@@ -43,7 +45,18 @@ async def main():
             new = array.data.reshape(array.shape + (1,1,1))
             output = xr.DataArray(new, dims=list("xyczt"))
             rep = await Representation.asyncs.from_xarray(output, name="fft", sample= rep.sample.id, variety=RepresentationVariety.VOXEL)
-            return { "rep": rep }
+            return rep
+
+        @client.template(show, gpu=True, image_k=True)
+        def show(rep: Representation):
+            """Sleep on the CPU
+
+            Args:
+                helper ([type]): [description]
+                rep ([type], optional): [description]. Defaults to None.
+            """
+            helper.displayRep(rep)
+            return rep
 
         await client.provide_async()
 

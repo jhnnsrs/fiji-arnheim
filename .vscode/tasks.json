@@ -16,7 +16,7 @@
         {
             "label": "Run",
             "type": "shell",
-            "command": "source venv/bin/activate; python main.py"
+            "command": "source venv/bin/activate; python fiji_arnheim/run.py"
         },
     ]
 }

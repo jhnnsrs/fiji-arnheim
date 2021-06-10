@@ -25,9 +25,16 @@ def main():
     helper = ImageJHelper()
 
     show = Node.objects.get(package="Elements", interface="show")
+    blur = Node.objects.get(package="Elements", interface="gaussian_blur")
 
     @client.template(show, gpu=True, image_k=True)
     async def show(rep: Representation) -> Representation:
+        helper.displayRep(rep)
+        return rep
+
+    @client.template(blur, gpu=True, image_k=True)
+    def blur(rep: Representation, int=3) -> Representation:
+        rep = Representation.objects.get(id=rep.id)
         helper.displayRep(rep)
         return rep
 
